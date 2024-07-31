@@ -1,0 +1,14 @@
+version: 2
+updates:
+
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: weekly
+    milestone: 1
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: weekly
+    milestone: 1
