@@ -16,6 +16,7 @@
         }
     },
     "scripts": {
+        "grumphp": "grumphp run",
         "yamllint": "grumphp run --tasks yamllint",
         "phpcs": "grumphp run --tasks phpcs",
         "phpstan": "grumphp run --tasks phpstan",
