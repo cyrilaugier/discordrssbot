@@ -18,3 +18,4 @@ grumphp:
         type_scope_conventions:
           types:
             - chore
+            - ci
