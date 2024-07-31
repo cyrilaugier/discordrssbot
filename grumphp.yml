@@ -10,3 +10,4 @@ grumphp:
         - PSR12
     phpstan:
       level: 9
+    phpunit:
