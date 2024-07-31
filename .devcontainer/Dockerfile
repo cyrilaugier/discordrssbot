@@ -17,4 +17,8 @@ RUN apk add shadow sudo --no-cache \
 
 RUN echo "devcontainer" > /etc/alpine_chroot
 
+RUN apk add php82 composer \
+    && sed -i "s@^\(display_errors\) = .*\$@\1 = On@g" /etc/php*/php.ini \
+    && sed -i "s@^\(error_reporting\) = .*\$@\1 = E_ALL@g" /etc/php*/php.ini
+
 USER "$USERNAME"
