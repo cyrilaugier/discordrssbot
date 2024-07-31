@@ -1,6 +1,7 @@
 {
     "require-dev": {
-        "phpro/grumphp": "^2.6"
+        "phpro/grumphp": "^2.6",
+        "squizlabs/php_codesniffer": "^3.10"
     },
     "config": {
         "allow-plugins": {
@@ -8,6 +9,7 @@
         }
     },
     "scripts": {
-        "yamllint": "grumphp run --tasks yamllint"
+        "yamllint": "grumphp run --tasks yamllint",
+        "phpcs": "grumphp run --tasks phpcs"
     }
 }

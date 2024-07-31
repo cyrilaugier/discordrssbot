@@ -5,3 +5,6 @@ grumphp:
     succeeded: ~
   tasks:
     yamllint:
+    phpcs:
+      standard:
+        - PSR12
