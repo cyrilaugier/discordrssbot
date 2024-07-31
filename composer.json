@@ -1,7 +1,8 @@
 {
     "require-dev": {
         "phpro/grumphp": "^2.6",
-        "squizlabs/php_codesniffer": "^3.10"
+        "squizlabs/php_codesniffer": "^3.10",
+        "phpstan/phpstan": "^1.11"
     },
     "config": {
         "allow-plugins": {
@@ -10,6 +11,7 @@
     },
     "scripts": {
         "yamllint": "grumphp run --tasks yamllint",
-        "phpcs": "grumphp run --tasks phpcs"
+        "phpcs": "grumphp run --tasks phpcs",
+        "phpstan": "grumphp run --tasks phpstan"
     }
 }
