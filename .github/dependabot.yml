@@ -8,7 +8,7 @@ updates:
     milestone: 1
 
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/.devcontainer"
     schedule:
       interval: weekly
     milestone: 1
