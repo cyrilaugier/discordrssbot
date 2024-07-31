@@ -4,3 +4,4 @@ grumphp:
     failed: ~
     succeeded: ~
   tasks:
+    yamllint:

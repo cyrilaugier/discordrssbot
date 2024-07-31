@@ -6,5 +6,8 @@
         "allow-plugins": {
             "phpro/grumphp": true
         }
+    },
+    "scripts": {
+        "yamllint": "grumphp run --tasks yamllint"
     }
 }
